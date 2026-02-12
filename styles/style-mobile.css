@@ -1,0 +1,174 @@
+@media (max-width:435px) {
+
+    body,html { overflow-x: hidden !important; }
+
+    #hero{
+        padding: 35% 0 5% 0;
+    
+         & .left-side{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            & h1{
+                font-size: 32px;
+            }
+
+            & h5{
+                font-size: 18px;
+            }
+
+            & .book-btn{
+                text-align: center;
+            }
+
+            & .download-btn{
+                text-align: center;
+            }
+
+            & .light-box{
+            margin-bottom: 5%;
+            }
+        }
+
+            
+    }
+
+    #programWorks{
+        & .intro{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 3%;
+
+            & h2{
+                font-size: 28px;
+                text-align: center;
+            }
+
+            & p{
+                font-size: 18px;
+            }
+        }
+        
+        & .bottom-text{
+            font-size: 16px;
+        }
+    }
+
+    #trainingPrograms{
+
+        & .training-programs-inner{
+
+            & .intro{
+                & h2{
+                    font-size: 28px;
+                   text-align: center;
+                }
+
+                & p{
+                    font-size: 18px;
+                    text-align: center;
+                }
+            }
+
+            & .bottom-section{
+
+                & p{
+                    font-size: 18px;
+                }
+
+                & h6{
+                    font-size: 28px;
+                }
+
+                & a{
+                    padding: 2% 3%;
+                    width: 100%;
+                    text-align: center;
+                }
+                
+            }
+        }
+    }
+
+    #whyMiami{
+        & h2{
+            font-size: 28px;
+            text-align: center;
+        }
+    }
+
+    #ideal{
+        & h2{
+            font-size: 28px;
+            margin-bottom: 5%;
+        }
+    }
+
+    #participation{
+
+        & h2{
+            font-size: 28px;
+            margin-bottom: 5%;
+        }
+    }
+
+    #academy{
+
+        & h2{
+            font-size: 28px;
+            margin-bottom: 5%;
+        }
+
+        & p{
+            font-size: 18px;
+        }
+    }
+
+    #partner{
+
+    & .partner-inner{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        
+        & h2{
+            font-size: 28px;
+            margin-bottom: 5%;
+        }
+
+        & p{
+            font-size: 18px;
+        }
+
+        & .white-btn{
+            padding: 2% 3%;
+            width: 100%;
+            text-align: center;
+        }
+
+        & .blue-btn{
+            padding: 2% 3%;
+            width: 100%;
+            text-align: center;
+        }
+
+    }
+
+     & .orange-bar{
+        background-color: #F59E0B;
+        padding: 2%;
+        margin-top: 5%;
+
+        & p{
+            font-weight: 600;
+            color: #FFFFFF;
+            margin-bottom: 0;
+        }
+
+    }
+}
+
+}
